@@ -31,38 +31,7 @@ A modern event-driven architecture was introduced without changing the existing 
 
 ## High-Level Workflow
 
-```text
-Business User
-      │
-Select Multiple Loan Applications
-      │
-      ▼
-Legacy ASP.NET UI
-      │
-Publish Processing Event
-      │
-      ▼
-Azure Service Bus
-      │
-      ▼
-Azure Function
-      │
-Retrieve Processing Batch
-      │
-      ▼
-Background Loan Processing
-      │
-Update Processing Status
-      │
-      ▼
-Database
-      │
-      ▼
-Processing Status Dashboard
-(New UI Tab)
-```
-
-The user interface immediately becomes available after submitting a batch, allowing business users to continue processing additional loan applications while background processing continues asynchronously.
+<img src="./Images/appModernization.png?&style=for-the-badge&logoColor=white" />
 
 ---
 
