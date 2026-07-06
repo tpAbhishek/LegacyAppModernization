@@ -164,7 +164,7 @@ As the **Lead Solution Architect**, I was responsible for:
 
 ✅ Eliminated UI blocking caused by long-running backend operations.
 
-✅ Increased loan processing throughput from **900 applications/day** to approximately **1,400 applications/day** (~55% improvement).
+✅ Increased loan processing throughput from **900 applications/day** to approximately **1,130 applications/day** (~25% improvement).
 
 ✅ Improved operational efficiency by enabling users to continue processing while background jobs executed.
 
